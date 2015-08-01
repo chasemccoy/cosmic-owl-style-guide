@@ -17,7 +17,7 @@ This guide is intended to be used as an outline of all coding conventions used b
 * **Pragma Marks**
     - In `.h` files, use pragma marks to seperate properties `#pragma mark - Properties` and methods `#pragma mark - Methods`. In these sections, subdivide properties and methods into functional groups if necessary using `#pragma mark Section`.
     - In `.m` files, use pragma marks such as `#pragma mark - Grouping` to organize methods into functional groups. Always put delegate methods in their own group.
-* 
+* View Controllers, helper classes, data models, etc. should always be grouped together in the Navigator.
 
 ## Spacing
 * Indent using 2 spaces.
@@ -73,4 +73,4 @@ else {
 ```
 
 ## Classes
-All class names and constants should be prefixed with `CO`.
+All class names and constants should be prefixed with two or three letters representing the app that is using the code. If the code is intended to be reused between apps, it should be prefixed with `CO`.

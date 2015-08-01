@@ -74,3 +74,9 @@ else {
 
 ## Classes
 All class names and constants should be prefixed with two or three letters representing the app that is using the code. If the code is intended to be reused between apps, it should be prefixed with `CO`.
+
+# Other Objective-C Style Guides
+* [New York Times](https://github.com/NYTimes/objective-c-style-guide)
+* [Sam Soffes](https://gist.github.com/soffes/812796)
+* [Github](https://github.com/github/objective-c-style-guide)
+* [raywenderlich.com](https://github.com/raywenderlich/objective-c-style-guide)

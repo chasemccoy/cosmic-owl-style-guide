@@ -33,15 +33,15 @@ When declaring a method signature, there should be a space after the scope symbo
 - (void)setExampleText:(NSString *)text image:(UIImage *)image;
 ```
 
-Methods in the `.h` file should always be listen in the same order in the `.m` file. In addition, methods should always be documented immediately before their implementation. 
+Methods in the `.h` file should always be listed in the same order in the `.m` file. In addition, methods should always be documented immediately before their implementation. 
 
 If a method has three or more arguments (or more than 80 characters), seperate arguments onto their own line, and align them at the colon. 
 
 **For Example:**
 ```objc
-- (id)setExampleTest: (NSString *)text
-               image: (UIImage *)image
-                bool: (BOOL)bool;
+- (id)setExampleTest:(NSString *)text
+               image:(UIImage *)image
+                bool:(BOOL)bool;
 ```  
 
 ## Variables

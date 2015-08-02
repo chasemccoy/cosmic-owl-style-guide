@@ -44,6 +44,18 @@ If a method has three or more arguments (or more than 80 characters), seperate a
                 bool:(BOOL)bool;
 ```  
 
+Init methods should follow the convention provided by Apple's generated code template. A return type of `instancetype` should also be used instead of `id`.
+
+```objc
+- (instancetype)init {
+  self = [super init];
+  if (self) {
+    // ...
+  }
+  return self;
+}
+```
+
 ## Variables
 * Variables should be written in camel case, with the first letter always being lowercase. 
 * The pointer operator should always be placed immediately before the variable name.

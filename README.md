@@ -64,7 +64,8 @@ Init methods should follow the convention provided by Apple's generated code tem
 * All Apple types should be used over primitive ones. For example, if you are working with time intervals, use `NSTimeInterval` instead of `double` even though it is synonymous. 
 
 ## Properties
-* Properties should be accessed using `self.propertyName`, not `_propertyName`. The only exception is inside an initializer method.
+* Properties should be accessed using `self.propertyName`, not `_propertyName`. 
+    - Use `_propertyName` in initializer methods.
 * Properties should be declared as nonatomic in thread-safe environments.
 * Always declare properties using the strong keyword.
 
